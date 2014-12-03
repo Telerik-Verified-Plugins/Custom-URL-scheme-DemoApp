@@ -10,12 +10,6 @@
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
 
-    <script>
-        window.onerror = function(a,b,c) {
-            alert(a);
-            alert(c);
-        }
-    </script>
     <script src="scripts/demo.js"></script>
     <script src="scripts/app.js"></script>
 </head>
@@ -60,19 +54,26 @@
             <h3 class="hassubtitle">How to test this baby</h3>
             <p class="subtitle">
                 Assuming the URL scheme of your app is 'mycoolapp', you can launch your app
-                by clicking a link like &lt;a href="mycoolapp://"&gt;.
-                Note that in most cases typing in the URL in the address bar of your browser will not work.
+                by clicking a link like &lt;a href="mycoolapp://"&gt;link&lt;a&gt;.
             </p>
+            <h3 class="hassubtitle">iOS</h3>
             <p class="subtitle">
-                So you could create a little website with a link, but for a quick test you can
-                simply email yourself a link and open the email on your device.
-                By clicking the link you will launch this app and we'll show you the launch URL.
+                For a quick test you can email yourself a link. Open the email on your device,
+                click the link, and we'll show you the launch URL.
             </p>
             <p class="subtitle">
                 Alter the email draft as you see fit.
                 Make sure you use the same URL scheme as the one you configured in the plugin settings.
             </p>
             <button data-role="button" class="button large" data-bind="click:composeEmail">Compose an email</button>
+
+            <h3 class="hassubtitle">Android</h3>
+            <p class="subtitle">
+                Most email clients on Android don't interpret non-http links as a URL,
+                so it's not clickable. In this case you'll need to create a little test webpage with your link
+                and load it in your mobile browser.<br/>
+                Note that in most cases typing in the URL in the address bar of your browser will not launch your app.
+            </p>
         </div>
 
     </div>

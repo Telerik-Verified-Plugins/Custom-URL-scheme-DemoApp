@@ -14,7 +14,7 @@ function handleOpenURL(url) {
     DemoViewModel = kendo.data.ObservableObject.extend({
         composeEmail : function() {
             // Change the 'mycoolapp' bit here if you're using a different URL scheme
-            window.location = "mailto:?subject=Custom URL scheme demo&body=mycoolapp://my/path?foo=bar"
+            window.location = "mailto:?subject=Custom URL scheme demo&body=<a href='mycoolapp://my/path?foo=bar'>link</a>"
         }
     });
 
