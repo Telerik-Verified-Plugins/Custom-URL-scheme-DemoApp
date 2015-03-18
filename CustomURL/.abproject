@@ -17,10 +17,10 @@
   "WP8Publisher": "",
   "WP8Capabilities": [],
   "WP8Requirements": [],
-  "WP8PublisherID": "",
-  "WP8ProductID": "",
+  "WP8PublisherID": "{94904ed0-52d1-4312-b88e-bd26ebf72508}",
+  "WP8ProductID": "{f38bf9d3-8a7e-4780-aac0-19b439388a2a}",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "CorePlugins": [
     "org.apache.cordova.console",
     "org.apache.cordova.device",
@@ -46,5 +46,7 @@
     "nl.x-services.plugins.launchmyapp": {
       "URL_SCHEME": "mycoolapp"
     }
-  }
+  },
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.customurlscheme"
 }
