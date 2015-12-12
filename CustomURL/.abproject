@@ -27,7 +27,8 @@
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
     "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar"
+    "cordova-plugin-statusbar",
+    "nl.x-services.plugins.launchmyapp@4.1.0"
   ],
   "AndroidPermissions": [
     "android.permission.INTERNET"
