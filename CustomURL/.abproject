@@ -23,12 +23,12 @@
   "FrameworkVersion": "4.0.0",
   "CorePlugins": [
     "cordova-plugin-console",
-    "cordova-plugin-crosswalk-webview@1.2.0",
+    "cordova-plugin-crosswalk-webview@1.4.0.3",
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "nl.x-services.plugins.launchmyapp@4.1.0"
+    "nl.x-services.plugins.launchmyapp@4.1.3"
   ],
   "AndroidPermissions": [
     "android.permission.INTERNET"
@@ -46,6 +46,9 @@
   "Framework": "Cordova",
   "CordovaPluginVariables": {
     "nl.x-services.plugins.launchmyapp": {
+      "URL_SCHEME": "mycoolapp"
+    },
+    "cordova-plugin-customurlscheme": {
       "URL_SCHEME": "mycoolapp"
     }
   },
